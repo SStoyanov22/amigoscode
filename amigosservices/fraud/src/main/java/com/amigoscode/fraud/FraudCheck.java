@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class FraudCheckHistory {
+public class FraudCheck {
 
     @Id
     @SequenceGenerator(

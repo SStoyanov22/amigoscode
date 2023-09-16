@@ -7,16 +7,16 @@ import java.time.LocalDateTime;
 
 @Service
 @AllArgsConstructor
-public class FraudCheckHistoryService {
-    private final FraudCheckHistoryRepository fraudCheckHistoryRepository;
+public class FraudCheckService {
+    private final FraudCheckRepository fraudCheckRepository;
 
     public boolean isFraudulentCustomer(Integer customerId){
-        FraudCheckHistory fraudCheckHistory = FraudCheckHistory.builder()
+        FraudCheck fraudCheck = FraudCheck.builder()
                 .customerId(customerId)
                 .isFraudster(false)
                 .createdAt(LocalDateTime.now())
                 .build();
-        fraudCheckHistoryRepository.save(fraudCheckHistory);
+        fraudCheckRepository.save(fraudCheck);
         return false;
     }
 }
