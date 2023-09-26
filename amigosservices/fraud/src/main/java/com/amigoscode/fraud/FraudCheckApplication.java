@@ -10,8 +10,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(
         basePackages = "com.amigoscode.clients"
 )
-public class FraudApplication {
+public class FraudCheckApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FraudApplication.class, args);
+        SpringApplication.run(FraudCheckApplication.class, args);
     }
 }
