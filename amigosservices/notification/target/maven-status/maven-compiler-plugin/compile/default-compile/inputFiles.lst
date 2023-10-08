@@ -4,3 +4,4 @@
 /Users/user/src/github.com/SStoyanov22/amigoscode/amigosservices/notification/src/main/java/com/amigoscode/notification/NotificationController.java
 /Users/user/src/github.com/SStoyanov22/amigoscode/amigosservices/notification/src/main/java/com/amigoscode/notification/NotificationConfig.java
 /Users/user/src/github.com/SStoyanov22/amigoscode/amigosservices/notification/src/main/java/com/amigoscode/notification/NotificationRepository.java
+/Users/user/src/github.com/SStoyanov22/amigoscode/amigosservices/notification/src/main/java/com/amigoscode/notification/rabbitmq/NotificationConsumer.java
